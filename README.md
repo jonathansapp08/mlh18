@@ -15,3 +15,5 @@ Jonathan Sapp
 ### Idea
 
 [VR Snorkeling](vrsnorkel/README.md)
+
+[Charity App](charity/README.md)
