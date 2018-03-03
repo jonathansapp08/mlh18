@@ -5,5 +5,9 @@
 ### Team members:
 
 Isaac Bass
+
+Ben Kramer
+
 Dylan Thomas
+
 Jonathan Sapp
