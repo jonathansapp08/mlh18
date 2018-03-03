@@ -15,8 +15,35 @@
                 text-decoration: none;
             }
             
+            body, html {
+                height: 100%;
+            }
+
+            .hero-image {
+                background-image: url("img/home.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 50%;
+                position: relative;
+            }
+
+            .hero-text {
+                color: white;
+                position: absolute;
+                text-align: center;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+
             .home-link {
                 color: #fff;
+            }
+
+            .img-charity {
+                display: block;
+                width: 200px;
             }
         </style>
         
@@ -35,16 +62,56 @@
                 <div class="collapse navbar-collapse" id="myTogglerNav">
                     <div class="navbar-nav ml-auto">
                         <a class="nav-item nav-link" href="surveys.html">Surveys</a>
+                        <a class="nav-item nav-link" href="charities.html">Charities</a>
                         <a class="nav-item nav-link" href="community.html">Community</a>
                         <a class="nav-item nav-link" href="profile.html">Profile</a>
                     </div>  <!-- navbar-nav -->
                 </div>  <!-- collapse navbar-collapse -->
             </div>  <!-- container -->
         </nav>
-        
+
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Mission Statement</h1>
+                    
+                <p>This is our mission statement.</p>
+            </div>  <!-- hero-text -->
+        </div>  <!-- hero-image -->
+
+        <div class="container">
+            <h1 class="text-center text-dark">Charities</h1>
+    
+            <div class="row">
+                <section class="col-md-4">
+                    <img alt="Wounded Warrior Project" class="img-charity img-fluid img-rounded mx-auto" src="img/wounded-warrior-project.jpg">
+                    <h2 class="text-center text-dark">Wounded Warrior Project</h2>
+                    <p class="text-dark">Wounded Warrior Project is a charity.</p>
+                </section>    <!-- col-md-3 -->
+                <section class="col-md-4">
+                    <img alt="Patient Advocate Foundation" class="img-charity img-fluid img-rounded mx-auto" src="img/patient-advocate-foundation.jpg">
+                    <h2 class="text-center text-dark">Patient Advocate Foundation</h2>
+                    <p class="text-dark">Patient Advocate Foundation is a charity.</p>
+                </section>    <!-- col-md-3 -->
+                <section class="col-md-4">
+                    <img alt="St. Jude Children's Research Hospital" class="img-charity img-fluid img-rounded mx-auto" src="img/alsac.jpg">
+                    <h2 class="text-center text-dark">St. Jude Children's Research Hospital</h2>
+                    <p class="text-dark">St. Jude Children's Research Hospital is a charity.</p>
+                </section>    <!-- col-md-3 -->
+            </div>  <!-- row -->
+            <div class="row">
+                <section class="col-12 text-center">
+                    <a class="btn btn-primary center-block" href="charities.html" role="button">View More</a>
+                </section>  <!-- col-12 -->
+            </div>  <!-- row -->
+        </div>  <!-- container -->
+
         <script src="js/jquery-3.3.1.slim.min.js"></script>
         <script src="js/tether.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
+
+    <footer>
+
+    </footer>
 </html>
