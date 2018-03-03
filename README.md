@@ -14,4 +14,4 @@ Jonathan Sapp
 
 ### Idea
 
-VR Snorkeling
+[VR Snorkeling](vrsnorkel/README.md)
