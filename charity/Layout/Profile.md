@@ -8,14 +8,14 @@ Inspired by Google Opinion Rewards, this app is designed to gives users a chance
 
 ### How it works
 
-[Sign up/Log in](Layout/Sign.md)
+[Sign up/Log in] 
 
-[Profile](Layout/Profile.md) 
+[Profile] 
 
-[Surveys](Layout/Survey.md) 
+[Surveys] 
 
-[Stats](Layout/Stat.md) 
+[Stats] 
 
-[Friend](Layout/Friend.md) 
+[Friend] 
 
    
