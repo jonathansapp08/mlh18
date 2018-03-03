@@ -9,7 +9,7 @@ Inspired by Echo Arena, our VR Snorkel game places the player in the deep sea.
 Here players can oberve the vibrant scenery and the creatures that live within.
 
 
-##The Goods 
+## The Goods 
 
 [Screenshots](Screenshots/README.md)
 
