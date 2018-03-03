@@ -5,3 +5,5 @@
 ### Team members:
 
 Isaac Bass
+Dylan Thomas
+Jonathan Sapp
