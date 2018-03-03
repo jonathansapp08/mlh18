@@ -4,4 +4,5 @@
 
 ### Team members:
 
+Dylan Thomas
 
