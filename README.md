@@ -2,6 +2,3 @@
 
 ## TEAM NAME
 
-helooooo
-
-### ITS LIKE UBER BUT FOR MEMES
