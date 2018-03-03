@@ -1,4 +1,7 @@
 # MLH 18
 
-## TEAM NAME
+## It's Like Uber But For Github
+
+### Team members:
+
 
