@@ -13,7 +13,11 @@
 #### Color Scheme (Hex Codes)
 
 27a5da - light blue
+
 10455c - dark blue
+
 3eb74e - green
+
 f1f9f2 - white
+
 0c0c0c - black
