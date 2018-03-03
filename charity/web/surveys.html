@@ -15,6 +15,11 @@
                 text-decoration: none;
             }
             
+            .btn-center {
+                margin-bottom: 51.5px;
+                margin-top: 51.5px;
+            }
+            
             .home-link {
                 color: #fff;
             }
@@ -24,7 +29,7 @@
     </head>
     
     <body>
-        <nav class="bg-dark fixed-top navbar navbar-dark navbar-expand-sm">
+        <nav class="bg-dark navbar navbar-dark navbar-expand-sm sticky-top">
             <div class="container">
                 <div class="navbar-brand d-sm-inline-block"><a class="home-link" href="index.html">Servey</a></div>  <!-- navbar-brand -->
                 
@@ -42,15 +47,138 @@
                 </div>  <!-- collapse navbar-collapse -->
             </div>  <!-- container -->
         </nav>
-
+        
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
-                    <h1 class="text-dark">Order By:</h1>
-                </div>  <!-- col-md-3 -->
-                <div class="col-md-6">
-
-                </div>  <!-- col-md-6 -->
+                <section class="col-md-3">
+                    <h2 class="text-dark">Order By:</h2>
+                    
+                    <div aria-multiselectable="true" id="order-by-accordion" role="tablist">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="companyheading">
+                                <h5 class="mb-0"><a aria-controls="company" aria-expanded="true" data-parent="order-by-accordion" data-toggle="collapse" href="#company">Company</a></h5>
+                            </div>  <!-- card-header -->
+                            <div aria-labelledby="companyheading" class="collapse" id="company" role="tabpanel">
+                                <div class="card-block">
+                                    <ul>
+                                        <li>Rybbon</li>
+                                        <li>Swagbucks</li>
+                                        <li>E-Rewards</li>
+                                        <li>MySurvey</li>
+                                    </ul>
+                                </div>  <!-- card-block -->
+                            </div>  <!-- time -->
+                        </div>  <!-- card -->
+                        <div class="card">
+                            <div class="card-header" role="tab" id="timeheading">
+                                <h5 class="mb-0"><a aria-controls="time" aria-expanded="true" data-parent="order-by-accordion" data-toggle="collapse" href="#time">Time</a></h5>
+                            </div>  <!-- card-header -->
+                            <div aria-labelledby="timeheading" class="collapse" id="time" role="tabpanel">
+                                <div class="card-block">
+                                    <ul>
+                                        <li>1-4 minutes</li>
+                                        <li>5-9 minutes</li>
+                                        <li>10-14 minutes</li>
+                                        <li>15+ minutes</li>
+                                    </ul>
+                                </div>  <!-- card-block -->
+                            </div>  <!-- time -->
+                        </div>  <!-- card -->
+                        <div class="card">
+                            <div class="card-header" role="tab" id="rewardheading">
+                                <h5 class="mb-0"><a aria-controls="reward" aria-expanded="true" data-parent="order-by-accordion" data-toggle="collapse" href="#reward">Reward</a></h5>
+                            </div>  <!-- card-header -->
+                            <div aria-labelledby="rewardheading" class="collapse" id="reward" role="tabpanel">
+                                <div class="card-block">
+                                    <ul>
+                                        <li>$1</li>
+                                        <li>$2</li>
+                                        <li>$5</li>
+                                        <li>$5+</li>
+                                    </ul>
+                                </div>  <!-- card-block -->
+                            </div>  <!-- time -->
+                        </div>  <!-- card -->
+                    </div> <!-- order-by-accordion -->
+                </section>  <!-- col-md-3 -->
+                <section class="col-md-9">
+                        <div class="card">
+                            <div class="row">
+                                <section class="col-lg-3">
+                                    <h2 class="text-center text-dark">Rybbon</h2>
+                                    <p class="text-center text-dark">Description of Rybbon survey.</p>
+                                </section>  <!-- col-md-3 -->
+                                <section class="col-lg-3">
+                                    <h2 class="text-center text-dark">Time</h2>
+                                    <h1 class="text-center text-dark">1 minute</h1>
+                                </section>
+                                <section class="col-lg-3">
+                                    <h2 class="text-center text-dark">Reward</h2>
+                                    <h1 class="text-center text-dark">$1</h1>
+                                </section>
+                                <section class="col-lg-3 text-center">
+                                    <a class="btn btn-center btn-primary center-block" href="" role="button">Take Survey</a>
+                                </section>  <!-- col-md-3 -->
+                            </div>  <!-- row -->
+                        </div>  <!-- card -->
+                        <div class="card">
+                            <div class="row">
+                                <section class="col-lg-3">
+                                    <h2 class="text-center text-dark">Swagbucks</h2>
+                                    <p class="text-center text-dark">Description of Swagbucks survey.</p>
+                                </section>  <!-- col-md-3 -->
+                                <section class="col-lg-3">
+                                    <h2 class="text-center text-dark">Time</h2>
+                                    <h1 class="text-center text-dark">5 minutes</h1>
+                                </section>
+                                <section class="col-lg-3">
+                                    <h2 class="text-center text-dark">Reward</h2>
+                                    <h1 class="text-center text-dark">$2</h1>
+                                </section>
+                                <section class="col-lg-3 text-center">
+                                    <a class="btn btn-center btn-primary center-block" href="" role="button">Take Survey</a>
+                                </section>  <!-- col-md-3 -->
+                            </div>  <!-- row -->
+                        </div>  <!-- card -->
+                        <div class="card">
+                            <div class="row">
+                                <section class="col-lg-3">
+                                    <h2 class="text-center text-dark">e-Rewards</h2>
+                                    <p class="text-center text-dark">Description of e-Rewards survey.</p>
+                                </section>  <!-- col-md-3 -->
+                                <section class="col-lg-3">
+                                    <h2 class="text-center text-dark">Time</h2>
+                                    <h1 class="text-center text-dark">10 minutes</h1>
+                                </section>
+                                <section class="col-lg-3">
+                                    <h2 class="text-center text-dark">Reward</h2>
+                                    <h1 class="text-center text-dark">$5</h1>
+                                </section>
+                                <section class="col-lg-3 text-center">
+                                    <a class="btn btn-center btn-primary center-block" href="" role="button">Take Survey</a>
+                                </section>  <!-- col-md-3 -->
+                            </div>  <!-- row -->
+                        </div>  <!-- card -->
+                        <div class="card">
+                            <div class="row">
+                                <section class="col-lg-3">
+                                    <h2 class="text-center text-dark">MySurvey</h2>
+                                    <p class="text-center text-dark">Description of MySurvey survey.</p>
+                                </section>  <!-- col-md-3 -->
+                                <section class="col-lg-3">
+                                    <h2 class="text-center text-dark">Time</h2>
+                                    <h1 class="text-center text-dark">15 minutes</h1>
+                                </section>
+                                <section class="col-lg-3">
+                                    <h2 class="text-center text-dark">Reward</h2>
+                                    <h1 class="text-center text-dark">$10</h1>
+                                </section>
+                                <section class="col-lg-3 text-center">
+                                    <a class="btn btn-center btn-primary center-block" href="" role="button">Take Survey</a>
+                                </section>  <!-- col-md-3 -->
+                            </div>  <!-- row -->
+                        </div>  <!-- card -->
+                </section>  <!-- col-md-9 -->
             </div>  <!-- row -->
         </div>  <!-- container -->
         
