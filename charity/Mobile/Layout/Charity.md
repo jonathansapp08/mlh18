@@ -4,4 +4,4 @@
 
 ### Charity
 
-![Charity](/img/charity.png)
+![Charity](img/charity.png)
