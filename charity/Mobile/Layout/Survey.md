@@ -2,20 +2,6 @@
 
 ## It's Like Uber But For Github
 
-### Charity App
+### Charity
 
-Inspired by Google Opinion Rewards, this app is designed to gives users a chance to donate to their favorite charity by filling out surveys.  
-
-### How it works
-
-[Sign up/Log in] 
-
-[Profile] 
-
-[Surveys] 
-
-[Stats] 
-
-[Friend] 
-
-   
+![survey](img/survey.png)
