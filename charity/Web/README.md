@@ -9,14 +9,14 @@
 
 ### How it works
 
-[Sign up/Log in](Layout/Sign.md)
+[Home](Layout/Home.md)
 
-[Profile](Layout/Profile.md) 
+[Surveys](Layout/Surveys.md) 
 
-[Surveys](Layout/Survey.md) 
+[Charities](Layout/Charities.md) 
 
-[Stats](Layout/Stat.md) 
+[Profile](Layout/Profile.md)
 
-[Friend](Layout/Friend.md) 
+### Live Link
 
-   
+[Servey](http://isaacbassportfolio.com/web/index.html)
