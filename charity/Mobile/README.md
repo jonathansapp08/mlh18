@@ -12,14 +12,12 @@
 
 ### How it works
 
-[Sign up/Log in](Layout/Sign.md)
+[Sign up/Log in](Layout/Login.md)
 
 [Profile](Layout/Profile.md) 
 
 [Surveys](Layout/Survey.md) 
 
-[Stats](Layout/Stat.md) 
-
-[Friend](Layout/Friend.md) 
+[Charity](Layout/Charity.md)
 
    

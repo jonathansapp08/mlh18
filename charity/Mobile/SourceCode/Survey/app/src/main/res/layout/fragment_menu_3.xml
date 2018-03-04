@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/table1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1">
+
+
+
+        <TableRow>
+            <TextView
+                android:text="Company"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:padding="3dip" />
+            <TextView
+                android:text="Time"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="3dip" />
+            <TextView
+                android:text="Reward"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:padding="3dip" />
+
+        </TableRow>
+        <TableRow android:paddingTop="75dp">
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:text="Rybbon"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:padding="3dip" />
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:text="15 Mins"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="3dip" />
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:text="$$"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="3dip" />
+            <Button
+                android:text="@string/take"
+                />
+
+        </TableRow>
+        <TableRow android:paddingTop="100dp">
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:text="e-Rewards"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:padding="3dip" />
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:text="45 Mins"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="3dip" />
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:text="$$"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="3dip" />
+            <Button
+                android:text="@string/take"
+                />
+        </TableRow>
+        <TableRow android:paddingTop="100dp">
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:text="MySurvey"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:padding="3dip" />
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:text="30 Mins"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="3dip" />
+            <TextView
+                android:textColor="@color/colorAccent"
+                android:text="$$$"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:padding="3dip" />
+
+            <Button
+                android:id="@+id/more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/take"
+                android:layout_centerHorizontal="true"/>
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+</RelativeLayout>

@@ -2,6 +2,6 @@
 
 ## It's Like Uber But For Github
 
-### Survey
+### Login
 
-![survey](img/survey.png)
+![Login](img/login.png)

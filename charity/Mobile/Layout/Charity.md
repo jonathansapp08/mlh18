@@ -2,6 +2,6 @@
 
 ## It's Like Uber But For Github
 
-### Survey
+### Charity
 
-![survey](img/survey.png)
+![Charity](img/charity.png)
