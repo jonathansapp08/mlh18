@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@+id/logo"
+        android:text="@string/home_title" />
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="150dp"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        android:hint="Username" />
+
+    <EditText
+        android:id = "@+id/editText2"
+        android:layout_below="@+id/editText1"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:paddingTop="20dp"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        android:inputType = "textPassword"
+        android:hint="Password"/>
+
+
+    <Button
+        android:id = "@+id/button1"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_below="@+id/editText2"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        android:onClick = "login"
+        android:text = "@string/Login"
+        />
+
+
+
+
+</RelativeLayout>
