@@ -7,16 +7,63 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         
         <style>
-            a.home-link:hover {
-                color: #fff;
-                text-decoration: none;
+            a.active {
+                color: #fff!important;
             }
             
-            .home-link {
-                color: #fff;
+            a.active:hover {
+                color: #fff!important;
+            }
+
+            a.btn-primary:hover {
+                background-color: #10455c;
+                border-color: #27a5da;
+            }
+
+            h1 {
+                margin-bottom: 16px;
+            }
+
+            .btn-primary {
+                background-color: #27a5da;
+                border-color: #10455c;
+                margin-bottom: 16px;
+            }
+
+            .charity-text {
+                margin-top: 16px;
+            }
+
+            .footer {
+                background-color: #b6b6b6;
+            }
+
+            .footer-text {
+                color: #545454;
+                margin-bottom: 0px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+            }
+
+            .img-home {
+                display: block;
+                height: 169.19px;
+            }
+            
+            .nav-link {
+                color: #3eb74e!important;
+            }
+            
+            .nav-link:hover {
+                color: #9edba6!important;
+            }
+            
+            .navbar-dark {
+                background-color: #10455c!important;
             }
         </style>
         
@@ -26,7 +73,7 @@
     <body>
         <nav class="bg-dark navbar navbar-dark navbar-expand-sm sticky-top">
             <div class="container">
-                <div class="navbar-brand d-sm-inline-block"><a class="home-link" href="index.html">Servey</a></div>  <!-- navbar-brand -->
+                <div class="navbar-brand d-sm-inline-block"><a href="index.html"><img src="img/servey.png"></a></div>  <!-- navbar-brand -->
                 
                 <button aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#myTogglerNav" data-toggle="collapse" type="button">
                     <span class="navbar-toggler-icon"></span>   <!-- navbar-toggler-icon -->
@@ -34,18 +81,74 @@
                 
                 <div class="collapse navbar-collapse" id="myTogglerNav">
                     <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link" href="surveys.html">Surveys</a>
-                        <a class="active nav-item nav-link" href="charities.html">Charities</a>
-                        <a class="nav-item nav-link" href="community.html">Community</a>
-                        <a class="nav-item nav-link" href="profile.html">Profile</a>
+                        <a class="nav-color nav-item nav-link" href="surveys.html">Surveys</a>
+                        <a class="active nav-color nav-item nav-link" href="charities.html">Charities</a>
+                        <a class="nav-color nav-item nav-link" href="profile.html">Profile</a>
                     </div>  <!-- navbar-nav -->
                 </div>  <!-- collapse navbar-collapse -->
             </div>  <!-- container -->
         </nav>
+        
+        <div class="container">
+            <br>
+            
+            <h1 class="text-center text-dark">Charities</h1>
+            
+            <div class="row">
+                <section class="col-md-4 text-center">
+                    <img alt="Wounded Warrior Project" class="img-home img-fluid img-rounded mx-auto" src="img/wounded-warrior-project.jpg">
+                    <p class="charity-text text-dark">The mission of Wounded Warrior Project is to honor and empower wounded warriors.</p>
+                    <a class="btn btn-center btn-primary center-block" href="https://www.woundedwarriorproject.org" role="button">Visit Site</a>
+                </section>    <!-- col-md-4 -->
+                <section class="col-md-4 text-center">
+                    <img alt="Patient Advocate Foundation" class="img-home img-fluid img-rounded mx-auto" src="img/patient-advocate-foundation.jpg">
+                    <p class="charity-text text-dark">The mission of the Patient Advocate Foundation (PAF) is to provide effective mediation and arbitration services to patients to remove obstacles to healthcare including medical debt crisis, insurance access issues and employment issues for patients with chronic, debilitating and life-threatening illnesses.</p>
+                    <a class="btn btn-center btn-primary center-block" href="http://www.patientadvocate.org/" role="button">Visit Site</a>
+                </section>    <!-- col-md-4 -->
+                <section class="col-md-4 text-center">
+                    <img alt="St. Jude Children's Research Hospital" class="img-home img-fluid img-rounded mx-auto" src="img/alsac.jpg">
+                    <p class="charity-text text-dark">ALSAC (American Lebanese Syrian Associated Charities) was founded in 1957 and exists for the sole purpose of raising funds to support the operating and maintenance of St. Jude Children's Research Hospital.</p>
+                    <a class="btn btn-center btn-primary center-block" href="https://www.stjude.org/" role="button">Visit Site</a>
+                </section>    <!-- col-md-4 -->
+            </div>  <!-- row -->
+
+            <br>
+
+            <hr>
+
+            <br>
+
+            <h1 class="text-center text-dark">Partners</h1>
+    
+            <div class="row">
+                <section class="col-md-4 text-center">
+                    <img alt="Rybbon" class="img-home img-fluid img-rounded mx-auto" src="img/rybbon.png">
+                    <p class="charity-text text-dark">Rybbon puts the power of gifting to work for marketers and market researchers.</p>
+                    <a class="btn btn-center btn-primary center-block" href="https://www.rybbon.net/" role="button">Visit Site</a>
+                </section>    <!-- col-md-4 -->
+                <section class="col-md-4 text-center">
+                    <img alt="Swagbucks" class="img-home img-fluid img-rounded mx-auto" src="img/swagbucks.png">
+                    <p class="charity-text text-center text-dark">Swagbucks.com is the web's most popular rewards program that gives users free gift cards and cash for the everyday things they already do online.</p>
+                    <a class="btn btn-center btn-primary center-block" href="https://www.swagbucks.com/" role="button">Visit Site</a>
+                </section>    <!-- col-md-4 -->
+                <section class="col-md-4 text-center">
+                    <img alt="e-Rewards" class="img-home img-fluid img-rounded mx-auto" src="img/e-rewards.png">
+                    <p class="charity-text text-center text-dark">The e-Rewards Opinion Panel is the world's leading online market research panel.</p>
+                    <a class="btn btn-center btn-primary center-block" href="https://www.e-rewards.com/global_home.do" role="button">Visit Site</a>
+                </section>    <!-- col-md-4 -->
+            </div>  <!-- row -->
+
+            <br>
+        </div>  <!-- container -->
         
         <script src="js/jquery-3.3.1.slim.min.js"></script>
         <script src="js/tether.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
+
+    <footer class="footer">
+        <p class="text-center footer-text"><strong>HackFSU 5:</strong> It's Like Uber But For Team Name</p>
+        <p class="text-center footer-text">&copy; 2018 Isaac Bass, Ben Kramer, Jonathan Sapp, Dylan Thomas</p>
+    </footer>
 </html>
