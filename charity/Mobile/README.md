@@ -12,7 +12,7 @@
 
 ### How it works
 
-[Sign up/Log in](Layout.md)
+[Sign up/Log in](Login.md)
 
 [Profile](Layout/Profile.md) 
 
