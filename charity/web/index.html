@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <style>
+            a.btn-primary:hover {
+                background-color: #10455c;
+                border-color: #27a5da;
+            }
+            
+            body, html {
+                height: 100%;
+            }
+
+            @media only screen and (max-width: 576px) {
+                .hero-text {
+                    width: 300px;
+                }
+            }
+
+            .btn-charity {
+                margin: 0px 5px 0px 5px;
+            }
+
+            .btn-primary {
+                background-color: #27a5da;
+                border-color: #10455c;
+            }
+            
+            .fa {
+                margin-bottom: 5px;
+                padding: 20px;
+                font-size: 30px;
+                width: 100px;
+                text-align: center;
+                text-decoration: none!important;
+            }
+
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+            }
+
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+            }
+
+            .fa:hover {
+                color: #fff;
+                opacity: 0.7;
+            }
+            
+            .footer {
+                background-color: #b6b6b6;
+            }
+
+            .footer-text {
+                color: #545454;
+                margin-bottom: 0px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+            }
+
+            .hero-image {
+                background-image: url("img/home.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 75%;
+                position: relative;
+            }
+
+            .hero-text {
+                background-color: rgba(31, 91, 39, 0.95);
+                border-color: #3eb74e;
+                border-radius: 5px;
+                border-style: solid;
+                color: white;
+                padding: 16px;
+                position: absolute;
+                text-align: center;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            .img-charity {
+                width: 500px;
+            }
+
+            .img-home {
+                display: block;
+                height: 169.19px;
+            }
+            
+            .nav-color {
+                color: #3eb74e!important;
+            }
+            
+            .nav-link:hover {
+                color: #9edba6!important;
+            }
+            
+            .navbar-dark {
+                background-color: #10455c!important;
+            }
+
+            .text-charity {
+                text-align: left;
+            }
+        </style>
+        
+        <title>Servey</title>
+    </head>
+    
+    <body>
+        <nav class="bg-dark navbar navbar-dark navbar-expand-sm sticky-top">
+            <div class="container">
+                <div class="navbar-brand d-sm-inline-block"><a href="index.html"><img src="img/servey.png"></a></div>  <!-- navbar-brand -->
+                
+                <button aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#myTogglerNav" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>   <!-- navbar-toggler-icon -->
+                </button>
+                
+                <div class="collapse navbar-collapse" id="myTogglerNav">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-color nav-item nav-link" href="surveys.html">Surveys</a>
+                        <a class="nav-color nav-item nav-link" href="charities.html">Charities</a>
+                        <a class="nav-color nav-item nav-link" href="profile.html">Profile</a>
+                    </div>  <!-- navbar-nav -->
+                </div>  <!-- collapse navbar-collapse -->
+            </div>  <!-- container -->
+        </nav>
+
+        <div class="hero-image">
+            <div class="hero-text">
+                <h1>Mission Statement</h1>
+                    
+                <p>Servey is an aggregator of online surveys that reward users like you with money upon completion. Servey takes the money you earn from these surveys and donates it to a charity of your choice. We offer a wide range of options for our users, both in the type of surveys available and the charities we are partnered with.</p>
+            </div>  <!-- hero-text -->
+        </div>  <!-- hero-image -->
+
+        <div class="container">
+            <br>
+            
+            <div class="row">
+                <section class="col-md-6">
+                    <img alt="Charities" class="img-charity img-fluid" src="img/charities.jpg">
+                </section>  <!-- col-md-6 -->
+                <section class="col-md-6 text-center">
+                    <br>
+                    
+                    <h2 class="text-center text-dark">Get Started</h2>
+
+                    <p class="text-charity text-dark">Servey is a non-profit business, so 100% of the money you earn is donated to the charity or charities of your choice. After creating a profile, select your favorite charity or charities. You can access your favorites easily before completing a survey, or choose from any of our other available charities. Servey makes charitable contributions fun and easy, and saves your information so you can see how much total money you've raised for charity on your profile. Get started now!</p>
+                    
+                    <a class="btn btn-center btn-charity btn-primary center-block" href="profile.html" role="button">Create Profile</a>
+                    <a class="btn btn-center btn-charity btn-primary center-block" href="charities.html" role="button">View Charities</a>
+                </section>  <!-- col-md-6 -->
+            </div>  <!-- row -->
+
+            <br>
+
+            <hr>
+
+            <br>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <h2 class="text-center text-dark">Share with your friends!</h2>
+
+                    <p class="text-center text-dark">Invite a friend and automatically earn $20 for the charity of your choice!</p>
+                </div>  <!-- col-md-5 -->
+                <div class="col-md-2 text-center">
+                    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+                </div>  <!-- col-md-12 -->
+                <div class="col-md-2 text-center">
+                    <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+                </div>  <!-- col-md-12 -->
+            </div>  <!-- row -->
+
+            <br>
+        </div>  <!-- container -->
+
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+
+    <footer class="footer">
+        <p class="text-center footer-text"><strong>HackFSU 5:</strong> It's Like Uber But For Team Name</p>
+        <p class="text-center footer-text">&copy; 2018 Isaac Bass, Ben Kramer, Jonathan Sapp, Dylan Thomas</p>
+    </footer>
+</html>
