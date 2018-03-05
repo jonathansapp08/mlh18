@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <style>
+            a.active {
+                color: #fff!important;
+            }
+            
+            a.active:hover {
+                color: #fff!important;
+            }
+
+            a.charity-link:hover {
+                color: #fff;
+            }
+
+            a.friend-link:hover {
+                color: #10455c
+            }
+
+            h5 {
+                color: #10455c;
+                font-weight: bold;
+            }
+
+
+            @media only screen and (max-width: 768px) {
+                .friend-text {
+                    margin-bottom: 8px!important;
+                    margin-top: 8px!important;
+                }
+            }
+
+            .card-header {
+                background-color: #10455c;
+                color: #fff;
+                text-decoration: none;
+            }
+
+            .charity-link {
+                color: #fff;
+                text-decoration: none!important;
+            }
+
+            .footer {
+                background-color: #b6b6b6;
+            }
+
+            .footer-text {
+                color: #545454;
+                margin-bottom: 0px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+            }
+
+            .friend {
+                padding: 8px;
+                width: 96px;
+            }
+
+            .friend-link {
+                color: #27a5da;
+                text-decoration: none!important;
+            }
+
+            .friend-text {
+                margin-bottom: 36px;
+                margin-top: 36px;
+            }
+
+            .money-raised {
+                margin-bottom: 5px;
+            }
+
+            .nav-link {
+                color: #3eb74e!important;
+            }
+            
+            .nav-link:hover {
+                color: #9edba6!important;
+            }
+            
+            .navbar-dark {
+                background-color: #10455c!important;
+            }
+            
+            .profile {
+                border-color: #27a5da;
+                border-radius: 5px;
+                border-style: solid;
+                height: 200px;
+            }
+
+            .stats-strong {
+                color: #10455c;
+                font-size: 1.125em;
+            }
+
+            #by-charity {
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+            }
+
+            #by-charity-final {
+                margin-bottom: 0px;
+            }
+        </style>
+        
+        <title>Servey</title>
+    </head>
+    
+    <body>
+        <nav class="bg-dark fixed-top navbar navbar-dark navbar-expand-sm sticky-top">
+            <div class="container">
+                <div class="navbar-brand d-sm-inline-block"><a href="index.html"><img src="img/servey.png"></a></div>  <!-- navbar-brand -->
+                
+                <button aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#myTogglerNav" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>   <!-- navbar-toggler-icon -->
+                </button>
+                
+                <div class="collapse navbar-collapse" id="myTogglerNav">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-color nav-item nav-link" href="surveys.html">Surveys</a>
+                        <a class="nav-color nav-item nav-link" href="charities.html">Charities</a>
+                        <a class="active nav-color nav-item nav-link" href="profile.html">Profile</a>
+                    </div>  <!-- navbar-nav -->
+                </div>  <!-- collapse navbar-collapse -->
+            </div>  <!-- container -->
+        </nav>
+
+        <div class="container">
+            <br>
+
+            <figure class="text-center">
+                <img alt="Michael Scott" class="img-fluid mx-auto profile rounded-circle" src="img/profile.jpg">
+                
+                <h1 class="text-dark">Michael Scott</h1>
+            </figure>
+            
+            <br>
+
+            <div class="row">
+                <section class="col-md-4">
+                    <h2 class="text-center text-dark">Information</h2>
+                    
+                    <h5>Age</h5>
+                    <p class="text-dark">42</p>
+                    
+                    <h5>Gender</h5>
+                    <p class="text-dark">Male</p>
+                    
+                    <h5>Occupation</h5>
+                    <p class="text-dark">Regional Manager at Dunder Mifflin</p>
+                    
+                    <h5>Interests</h5>
+                    <p class="text-dark">Music, Travel, Art, Fitness/Health, Reading/Writing, Food, Cars, Movies</p>
+                    
+                    <h5>Favorite Charities</h5>
+                    <p class="text-dark">Wounded Warrior Project</p>
+                </section>  <!-- col-md-4 -->
+                <section class="col-md-4">
+                    <h2 class="text-center text-dark">Stats</h2>
+                    
+                    <p class="text-dark"><strong class="stats-strong">Member since:</strong> March 25, 2005</p>
+                    <p class="text-dark"><strong class="stats-strong">Surveys taken:</strong> 67</p>
+                    <p class="money-raised text-dark"><strong class="stats-strong">Money raised:</strong> $301.50</p>
+                    
+                    <div aria-multiselectable="true" id="by-charity-accordion" role="tablist">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="by-charity-heading">
+                                <p class="mb-0"><a aria-controls="by-charity" aria-expanded="true" class="charity-link" data-parent="by-charity-accordion" data-toggle="collapse" href="#by-charity">By charity</a></p>
+                            </div>  <!-- card-header -->
+                            <div aria-labelledby="by-charity-heading" class="collapse" id="by-charity" role="tabpanel">
+                                <div class="card-block">
+                                    <p class="text-dark"><strong>Wounded Warrior Project:</strong> $201.00</p>
+                                    <p class="text-dark"><strong>Patient Advocate Foundation:</strong> $67.00</p>
+                                    <p class="text-dark" id="by-charity-final"><strong>St. Jude:</strong> $33.50</p>
+                                </div>  <!-- card-block -->
+                            </div>  <!-- by-charity -->
+                        </div>  <!-- card -->
+                    </div> <!-- by-charity-accordion -->
+                </section>  <!-- col-md-4 -->
+                <section class="col-md-4">
+                    <h2 class="text-center text-dark">Friends</h2>
+                    
+                    <div class="card">
+                        <div class="row">
+                            <section class="col-lg-4 text-center">
+                                <img alt="Dwight Schrute" class="friend img-fluid rounded-circle mx-auto" src="img/dwight-schrute.jpg">
+                            </section>  <!-- col-md-3 -->
+                            <section class="col-lg-8">
+                                <h5 class="friend-text text-center text-dark"><a class="friend-link" href="">Dwight Schrute</a></h5>
+                            </section>  <!-- col-md-8 -->
+                        </div>  <!-- row -->
+                    </div>  <!-- card -->
+                    <div class="card">
+                        <div class="row">
+                            <section class="col-lg-4 text-center">
+                                <img alt="Jim Halpert" class="friend img-fluid rounded-circle mx-auto" src="img/jim-halpert.jpg">
+                            </section>  <!-- col-md-3 -->
+                            <section class="col-lg-8">
+                                <h5 class="friend-text text-center text-dark"><a class="friend-link" href="">Jim Halpert</a></h5>
+                            </section>  <!-- col-md-8 -->
+                        </div>  <!-- row -->
+                    </div>  <!-- card -->
+                    <div class="card">
+                        <div class="row">
+                            <section class="col-lg-4 text-center">
+                                <img alt="Pam Beasley" class="friend img-fluid rounded-circle mx-auto" src="img/pam-beasley.jpg">
+                            </section>  <!-- col-md-3 -->
+                            <section class="col-lg-8">
+                                <h5 class="friend-text text-center text-dark"><a class="friend-link" href="">Pam Beasley</a></h5>
+                            </section>  <!-- col-md-8 -->
+                        </div>  <!-- row -->
+                    </div>  <!-- card -->
+                    <div class="card">
+                        <div class="row">
+                            <section class="col-lg-4 text-center">
+                                <img alt="Stanley Hudson" class="friend img-fluid rounded-circle mx-auto" src="img/stanley-hudson.png">
+                            </section>  <!-- col-md-3 -->
+                            <section class="col-lg-8">
+                                <h5 class="friend-text text-center text-dark"><a class="friend-link" href="">Stanley Hudson</a></h5>
+                            </section>  <!-- col-md-8 -->
+                        </div>  <!-- row -->
+                    </div>  <!-- card -->
+                </section>  <!-- col-md-4 -->
+            </div>  <!-- row -->
+
+            <br>
+        </div>  <!-- container -->
+        
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+
+    <footer class="footer">
+        <p class="text-center footer-text"><strong>HackFSU 5:</strong> It's Like Uber But For Team Name</p>
+        <p class="text-center footer-text">&copy; 2018 Isaac Bass, Ben Kramer, Jonathan Sapp, Dylan Thomas</p>
+    </footer>
+</html>

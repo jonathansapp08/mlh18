@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <style>
+            a.active {
+                color: #fff!important;
+            }
+            
+            a.active:hover {
+                color: #fff!important;
+            }
+            
+            a.btn-primary:hover {
+                background-color: #10455c;
+                border-color: #27a5da;
+            }
+
+            a.order-link:hover {
+                color: #fff;
+            }
+            
+            h2 {
+                color: #3eb74e;
+            }
+
+            .btn-center {
+                margin-bottom: 30px;
+                margin-top: 30px;
+            }
+            
+            .btn-primary {
+                background-color: #27a5da;
+                border-color: #10455c;
+            }
+
+            .card-header {
+                background-color: #10455c;
+                color: #fff;
+                text-decoration: none;
+            }
+
+            .card-survey {
+                margin-bottom: 25px;
+                margin-top: 25px;
+            }
+
+            .footer {
+                background-color: #b6b6b6;
+            }
+
+            .footer-text {
+                color: #545454;
+                margin-bottom: 0px;
+                padding-bottom: 5px;
+                padding-top: 5px;
+            }
+
+            .form {
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+            }
+
+            .nav-link {
+                color: #3eb74e!important;
+            }
+            
+            .nav-link:hover {
+                color: #9edba6!important;
+            }
+            
+            .navbar-dark {
+                background-color: #10455c!important;
+            }
+
+            .order-link {
+                color: #fff;
+                text-decoration: none!important;
+            }
+        </style>
+        
+        <title>Servey</title>
+    </head>
+    
+    <body>
+        <nav class="bg-dark navbar navbar-dark navbar-expand-sm sticky-top">
+            <div class="container">
+                <div class="navbar-brand d-sm-inline-block"><a href="index.html"><img src="img/servey.png"></a></div>  <!-- navbar-brand -->
+                
+                <button aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#myTogglerNav" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>   <!-- navbar-toggler-icon -->
+                </button>
+                
+                <div class="collapse navbar-collapse" id="myTogglerNav">
+                    <div class="navbar-nav ml-auto">
+                        <a class="active nav-color nav-item nav-link" href="surveys.html">Surveys</a>
+                        <a class="nav-color nav-item nav-link" href="charities.html">Charities</a>
+                        <a class="nav-color nav-item nav-link" href="profile.html">Profile</a>
+                    </div>  <!-- navbar-nav -->
+                </div>  <!-- collapse navbar-collapse -->
+            </div>  <!-- container -->
+        </nav>
+        
+        <div class="container">
+
+            <br>
+
+            <div class="row">
+                <section class="col-md-3">
+                    <h4 class="text-dark">Order By:</h4>
+                    
+                    <div aria-multiselectable="true" id="order-by-accordion" role="tablist">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="companyheading">
+                                <h5 class="mb-0"><a aria-controls="company" aria-expanded="true" class="order-link" data-parent="order-by-accordion" data-toggle="collapse" href="#company">Company</a></h5>
+                            </div>  <!-- card-header -->
+                            <div aria-labelledby="companyheading" class="collapse" id="company" role="tabpanel">
+                                <div class="card-block">
+                                    <form class="form">
+                                        <input type="checkbox">&nbsp;Rybbon<br>
+                                        <input type="checkbox">&nbsp;Swagbucks<br>
+                                        <input type="checkbox">&nbsp;e-Rewards<br>
+                                        <input type="checkbox">&nbsp;MySurvey<br>
+                                    </form>
+                                </div>  <!-- card-block -->
+                            </div>  <!-- time -->
+                        </div>  <!-- card -->
+                        <div class="card">
+                            <div class="card-header" role="tab" id="timeheading">
+                                <h5 class="mb-0"><a aria-controls="time" aria-expanded="true" class="order-link" data-parent="order-by-accordion" data-toggle="collapse" href="#time">Time</a></h5>
+                            </div>  <!-- card-header -->
+                            <div aria-labelledby="timeheading" class="collapse" id="time" role="tabpanel">
+                                <div class="card-block">
+                                    <form class="form">
+                                        <input type="checkbox">&nbsp;1-4 minutes<br>
+                                        <input type="checkbox">&nbsp;5-9 minutes<br>
+                                        <input type="checkbox">&nbsp;10-14 minutes<br>
+                                        <input type="checkbox">&nbsp;15+ minutes<br>
+                                    </form>
+                                </div>  <!-- card-block -->
+                            </div>  <!-- time -->
+                        </div>  <!-- card -->
+                        <div class="card">
+                            <div class="card-header" role="tab" id="rewardheading">
+                                <h5 class="mb-0"><a aria-controls="reward" aria-expanded="true" class="order-link" data-parent="order-by-accordion" data-toggle="collapse" href="#reward">Reward</a></h5>
+                            </div>  <!-- card-header -->
+                            <div aria-labelledby="rewardheading" class="collapse" id="reward" role="tabpanel">
+                                <div class="card-block">
+                                    <form class="form">
+                                        <input type="checkbox">&nbsp;$1<br>
+                                        <input type="checkbox">&nbsp;$2<br>
+                                        <input type="checkbox">&nbsp;$5<br>
+                                        <input type="checkbox">&nbsp;$5+<br>
+                                    </form>
+                                </div>  <!-- card-block -->
+                            </div>  <!-- time -->
+                        </div>  <!-- card -->
+                    </div> <!-- order-by-accordion -->
+                </section>  <!-- col-md-3 -->
+                <section class="col-md-9">
+                        <div class="card card-survey">
+                            <div class="row">
+                                <section class="col-lg-3">
+                                    <h3 class="text-center text-dark">Company</h3>
+                                    <h2 class="text-center">Rybbon</h2>
+                                </section>  <!-- col-md-3 -->
+                                <section class="col-lg-3">
+                                    <h3 class="text-center text-dark">Time</h3>
+                                    <h2 class="text-center">1 minute</h2>
+                                </section>
+                                <section class="col-lg-3">
+                                    <h3 class="text-center text-dark">Reward</h3>
+                                    <h2 class="text-center">$1</h2>
+                                </section>
+                                <section class="col-lg-3 text-center">
+                                    <a class="btn btn-center btn-primary center-block" href="" role="button">Take Survey</a>
+                                </section>  <!-- col-md-3 -->
+                            </div>  <!-- row -->
+                        </div>  <!-- card -->
+                        <div class="card card-survey">
+                            <div class="row">
+                                <section class="col-lg-3">
+                                    <h3 class="text-center text-dark">Company</h3>
+                                    <h2 class="text-center">SwagBucks</h2>
+                                </section>  <!-- col-md-3 -->
+                                <section class="col-lg-3">
+                                    <h3 class="text-center text-dark">Time</h3>
+                                    <h2 class="text-center">5 minutes</h2>
+                                </section>
+                                <section class="col-lg-3">
+                                    <h3 class="text-center text-dark">Reward</h3>
+                                    <h2 class="text-center">$2</h2>
+                                </section>
+                                <section class="col-lg-3 text-center">
+                                    <a class="btn btn-center btn-primary center-block" href="" role="button">Take Survey</a>
+                                </section>  <!-- col-md-3 -->
+                            </div>  <!-- row -->
+                        </div>  <!-- card -->
+                        <div class="card card-survey">
+                            <div class="row">
+                                <section class="col-lg-3">
+                                    <h3 class="text-center text-dark">Company</h3>
+                                    <h2 class="text-center">e-Rewards</h2>
+                                </section>  <!-- col-md-3 -->
+                                <section class="col-lg-3">
+                                    <h3 class="text-center text-dark">Time</h3>
+                                    <h2 class="text-center">10 minutes</h2>
+                                </section>
+                                <section class="col-lg-3">
+                                    <h3 class="text-center text-dark">Reward</h3>
+                                    <h2 class="text-center">$5</h2>
+                                </section>
+                                <section class="col-lg-3 text-center">
+                                    <a class="btn btn-center btn-primary center-block" href="" role="button">Take Survey</a>
+                                </section>  <!-- col-md-3 -->
+                            </div>  <!-- row -->
+                        </div>  <!-- card -->
+                        <div class="card card-survey">
+                            <div class="row">
+                                <section class="col-lg-3">
+                                    <h3 class="text-center text-dark">Company</h3>
+                                    <h2 class="text-center">MySurvey</h2>
+                                </section>  <!-- col-md-3 -->
+                                <section class="col-lg-3">
+                                    <h3 class="text-center text-dark">Time</h3>
+                                    <h2 class="text-center">15 minutes</h2>
+                                </section>
+                                <section class="col-lg-3">
+                                    <h3 class="text-center text-dark">Reward</h3>
+                                    <h2 class="text-center">$10</h2>
+                                </section>
+                                <section class="col-lg-3 text-center">
+                                    <a class="btn btn-center btn-primary center-block" href="" role="button">Take Survey</a>
+                                </section>  <!-- col-md-3 -->
+                            </div>  <!-- row -->
+                        </div>  <!-- card -->
+                </section>  <!-- col-md-9 -->
+            </div>  <!-- row -->
+        </div>  <!-- container -->
+        
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+
+    <footer class="footer">
+        <p class="text-center footer-text"><strong>HackFSU 5:</strong> It's Like Uber But For Team Name</p>
+        <p class="text-center footer-text">&copy; 2018 Isaac Bass, Ben Kramer, Jonathan Sapp, Dylan Thomas</p>
+    </footer>
+</html>

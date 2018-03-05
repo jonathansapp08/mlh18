@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/imageView"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/name_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp"
+        android:paddingLeft="250dp"
+        android:gravity="right"
+        android:layout_below="@+id/imageView"
+        android:text="@string/name_entry" />
+
+
+    <TextView
+        android:id="@+id/age"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/name"
+        android:text="@string/age" />
+
+    <TextView
+        android:id="@+id/age_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="55dp"
+        android:paddingLeft="250dp"
+        android:gravity="right"
+        android:layout_below="@+id/name_entry"
+        android:text="@string/age_entry" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/age"
+        android:text="@string/gender" />
+
+    <TextView
+        android:id="@+id/gender_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp"
+        android:paddingLeft="250dp"
+        android:gravity="right"
+        android:layout_below="@+id/age_entry"
+        android:text="@string/gender_entry" />
+
+
+    <TextView
+        android:id="@+id/relationship"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/gender"
+        android:text="@string/relationship" />
+
+    <TextView
+        android:id="@+id/relationship_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="55dp"
+        android:paddingLeft="250dp"
+        android:gravity="right"
+        android:layout_below="@+id/gender_entry"
+        android:text="@string/relation_entry" />
+
+
+
+    <TextView
+        android:id="@+id/interests"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/relationship"
+        android:text="@string/interest" />
+
+    <TextView
+        android:id="@+id/interests_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp"
+        android:paddingLeft="250dp"
+        android:gravity="right"
+        android:layout_below="@+id/relationship_entry"
+        android:text="@string/interest_entry" />
+
+
+    <TextView
+        android:id="@+id/occupation"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/interests"
+        android:text="@string/occupation" />
+
+    <TextView
+        android:id="@+id/occupation_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="55dp"
+        android:paddingLeft="250dp"
+        android:gravity="right"
+        android:layout_below="@+id/interests_entry"
+        android:text="@string/occupation_entry" />
+
+    <TextView
+        android:id="@+id/income"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:gravity="center"
+        android:layout_below="@+id/occupation"
+        android:text="@string/charity" />
+
+    <TextView
+        android:id="@+id/income_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="60dp"
+        android:paddingLeft="242dp"
+        android:gravity="right"
+        android:layout_below="@+id/occupation_entry"
+
+        android:text="@string/charity_entry" />
+
+</RelativeLayout>
+</ScrollView>
